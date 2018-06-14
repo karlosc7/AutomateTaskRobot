@@ -1,0 +1,14 @@
+start("Notepad")
+find_all(Window("Sin titulo: Bloc de notas"))
+write("Hello World!")
+highlight(MenuItem("Archivo"))
+click("Archivo", "Guardar")
+click("Nueva Carpeta") # Or "Create new folder" on XP
+# Enter folder name:
+write("Ejemplo")
+press(ENTER)
+# Change folder name:
+click("Abrir")
+write("Ejemplo")
+click("Guardar")
+highlight("Internet Explorer")

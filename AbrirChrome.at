@@ -1,0 +1,4 @@
+start('Chrome')
+press_and_hold(CTRL)
+scroll_up()
+release(CTRL)
